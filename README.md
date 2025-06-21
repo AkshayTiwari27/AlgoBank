@@ -105,7 +105,7 @@ Here is a sample walkthrough of the application:
 1. Login
 2. Create Account
 3. Admin Dashboard
-9. Exit
+4. Exit
 Enter your choice: 2
 
 --- Create New Account ---

@@ -50,7 +50,7 @@ int main() {
     BankSystem bank;
     int choice = 0;
 
-    while (choice != 9) {
+    while (choice != 4) {
         clearScreen();
         cout << "===================================" << endl;
         cout << "=== Welcome to AlgoBank System ===" << endl;
@@ -80,7 +80,8 @@ int main() {
                 bank.displayAdminDashboard();
                 pressEnterToContinue();
                 break;
-            case 9:
+            // FIX: The case to exit is now 4, matching the menu.
+            case 4:
                 cout << "Thank you for using AlgoBank. Goodbye!" << endl;
                 break;
             default:
@@ -93,7 +94,7 @@ int main() {
 
 void showLoggedInMenu(BankSystem& bank, Account* user) {
     int choice = 0;
-    while (choice != 9) {
+    while (choice != 6) {
         clearScreen();
         cout << "--- Welcome " << user->ownerName << " (Account #" << user->accountId << ") ---" << endl;
         cout << "Balance: $" << user->balance << endl;
@@ -152,7 +153,7 @@ void showLoggedInMenu(BankSystem& bank, Account* user) {
                 pressEnterToContinue();
                 break;
             }
-            case 9:
+            case 6:
                 cout << "Logging out..." << endl;
                 break;
             default:
