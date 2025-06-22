@@ -27,6 +27,13 @@ This is the heart of the project. Each feature is powered by a specific data str
 
 ## 🏗️ System Architecture
 
+<p align="center">
+  <img src="images/AlgoBank_System_Architecture.png" alt="PID Control System Flow Diagram" width="850"/>
+  <br/>
+  <em>PID Feedback Loop — Simulated Motor Control System</em>
+</p>
+
+
 The system is designed with a strong emphasis on **Object-Oriented Principles** and **Separation of Concerns**.
 
 -   **`BankSystem`**: The central orchestrator class. It acts as a facade, hiding the complexity of the subsystems from the `main` function. It owns all the core components.
