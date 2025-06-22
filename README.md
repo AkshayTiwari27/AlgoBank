@@ -30,7 +30,7 @@ This is the heart of the project. Each feature is powered by a specific data str
 <p align="center">
   <img src="images/AlgoBank_System_Architecture.png" alt="PID Control System Flow Diagram" width="850"/>
   <br/>
-  <em>PID Feedback Loop — Simulated Motor Control System</em>
+  <em>AlgoBank</em>
 </p>
 
 
