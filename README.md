@@ -28,9 +28,9 @@ This is the heart of the project. Each feature is powered by a specific data str
 ## 🏗️ System Architecture
 
 <p align="center">
-  <img src="images/AlgoBank_System_Architecture.png" alt="PID Control System Flow Diagram" width="850"/>
+  <img src="images/AlgoBank_System_Architecture.png" alt="AlgoBank Flow Diagram" width="850"/>
   <br/>
-  <em>AlgoBank</em>
+  <em> Diagram showing AlgoBank interaction in C++ </em>
 </p>
 
 
